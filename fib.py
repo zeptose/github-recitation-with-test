@@ -11,16 +11,5 @@ def fibonacci(position):
   return fibonacci(position - 1) + fibonacci(position - 2)
 
 
-# Test cases
-print("The 1st Fibonacci number: ", fibonacci(1))
-print("The 21st Fibonacci number: ", fibonacci(21))
-
-assert(fibonacci(0) == 0)
-print("The 0th Fibonacci number: ", fibonacci(0)) # should return 0
-
-assert(fibonacci(-1) == None)
-print("The -1st Fibonacci number: ", fibonacci(-1)) # should return None
-
-print("Code ran successfully!")
 
 

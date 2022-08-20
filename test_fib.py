@@ -9,7 +9,7 @@ def test_first_fibonacci():
     assert(fibonacci(1) == 1)
 
 def test_21st_fibonacci():
-    assert(fibonacci(21) == 6765)
+    assert(fibonacci(21) == 10946)
 
 def test_negative_fibonacci():
     assert(fibonacci(-1) == None)
